@@ -4,8 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 
 <p align="middle">
-<img
- src="https://github.com/fazekaszs/rigid_body_segmentation/tree/master/imgs/ab8_rbd_test_compressed.gif"
+<img src="https://github.com/fazekaszs/rigid_body_segmentation/tree/master/imgs/ab8_rbd_test_compressed.gif"
  alt="Rigid Body Segmentation of The Mutant ab8 Nanobody in Complex with the SARS-CoV-2 S-RBD"
  width=500
 >
