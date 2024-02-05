@@ -3,12 +3,9 @@
 [![PyPI](https://img.shields.io/pypi/v/rigid-body-segmentation)](https://pypi.org/project/rigid-body-segmentation)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 
-<p align="middle">
-<img src="https://github.com/fazekaszs/rigid_body_segmentation/tree/master/imgs/ab8_rbd_test_compressed.gif"
- alt="Rigid Body Segmentation of The Mutant ab8 Nanobody in Complex with the SARS-CoV-2 S-RBD"
- width=500
->
-</p>
+![Rigid Body Segmentation of The Mutant ab8 Nanobody in Complex with the SARS-CoV-2 S-RBD](
+ https://github.com/fazekaszs/rigid_body_segmentation/tree/master/imgs/ab8_rbd_test_compressed.gif
+)
 
 ## About
 
