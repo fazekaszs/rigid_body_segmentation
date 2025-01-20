@@ -1,7 +1,7 @@
 import sys
-import warnings
 import numpy as np
 
+from warnings import catch_warnings, simplefilter
 from argparse import Namespace
 from rich.console import Console
 from rich.progress import Progress
@@ -158,7 +158,8 @@ def blabel(
             atom.residue.atoms.tempfactors = tempfactor_array
 
     # Without "catch_warnings" we would get "Found no information for attr: 'formalcharges'".
-    with warnings.catch_warnings(action="ignore"):
+    with catch_warnings():
+        simplefilter(action="ignore")
         universe.select_atoms("all").write(args.output_file)
 
     console.print(f"B-labelled pdb file saved as {args.output_file}")
